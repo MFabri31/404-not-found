@@ -13,6 +13,7 @@
     padding: 0;
 }
 
+
 /* --------------------
          BASE
 -----------------------*/
@@ -28,6 +29,56 @@ img{
 
 a{
     text-decoration: none;
+}
+
+
+/* --------------------
+         HEADER
+-----------------------*/
+.main-header{
+    padding: 1rem;
+}
+
+.main-header__logo{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:var(--secondary-color);
+}
+
+
+/* --------------------
+       INFO SECTION
+-----------------------*/
+.main-info{
+    margin: 3rem 0 5rem 0;
+    padding: 1em;
+}
+
+.info-text__title{
+    font-size:3.5rem;
+    font-weight: 600;
+}
+
+.info-text__paragraph{
+    width: 75%;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+
+.info-text__btn{
+    padding: 1em 1.3em;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    text-transform: uppercase;
+}
+
+/* --------------------
+         FOOTER
+-----------------------*/
+.main-footer{
+    padding: 2em 0;
+    text-align: center;
 }
 
 
