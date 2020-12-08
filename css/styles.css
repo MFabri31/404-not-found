@@ -73,6 +73,55 @@ a{
     text-transform: uppercase;
 }
 
+
+@media screen and (min-width:768px){
+    .main-info{
+        height: 25rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .main-info__img{
+        width: 25rem;
+    }
+    
+    .info-text{
+        width: 25rem;
+    }
+
+    .info-text__paragraph{
+        width: 50%;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:1200px){
+    .main-info{
+        /* height: 30rem; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .main-info__img{
+        width: 30rem;
+    }
+    
+    .info-text{
+        width: 30rem;
+    }
+
+    .info-text__paragraph{
+        width: 45%;
+    }
+
+}
+
+
 /* --------------------
          FOOTER
 -----------------------*/
