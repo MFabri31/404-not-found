@@ -19,6 +19,10 @@
 -----------------------*/
 
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 16px;
     font-family: var(--main-font);
 }
@@ -51,7 +55,6 @@ a{
        INFO SECTION
 -----------------------*/
 .main-info{
-    margin: 3rem 0 5rem 0;
     padding: 1em;
 }
 
@@ -82,14 +85,11 @@ a{
         align-items: center;
     }
     
-    .main-info__img{
-        width: 25rem;
-    }
-    
+    .main-info__img,
     .info-text{
         width: 25rem;
     }
-
+    
     .info-text__paragraph{
         width: 50%;
     }
@@ -100,21 +100,11 @@ a{
 
 
 @media screen and (min-width:1200px){
-    .main-info{
-        /* height: 30rem; */
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .main-info__img{
-        width: 30rem;
-    }
-    
+    .main-info__img,
     .info-text{
         width: 30rem;
     }
-
+    
     .info-text__paragraph{
         width: 45%;
     }
